@@ -3,6 +3,7 @@ minikube service reddit-clone-service --url
 curl - L URL
 
 To run app on browser we need to expose deployment
+
 kubectl expose deployment reddit-clone-deployment --type=NodePort
 
 kubectl port-forward svc/reddit-clone-service 3000:3000 --address 0.0.0.0 &
