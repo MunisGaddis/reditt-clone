@@ -1,5 +1,7 @@
 Deploy a Redit Clone with Kubernetes Ingress
+
 minikube service reddit-clone-service --url
+
 curl - L URL
 
 To run app on browser we need to expose deployment
