@@ -10,7 +10,7 @@ kubectl port-forward svc/reddit-clone-service 3000:3000 --address 0.0.0.0 &
 
 Access app: IP:Port
 
-Enable ingress minikube
+Enable ingress minikube : minikube addons enable ingress
 
 kubectl apply -f ingress.yml
 
